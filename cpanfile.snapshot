@@ -1,0 +1,24 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Win32-Console-ANSI-1.10
+    pathname: J/JL/JLMOREL/Win32-Console-ANSI-1.10.tar.gz
+    provides:
+      Win32::Console::ANSI 1.10
+    requirements:
+      ExtUtils::MakeMaker 0
+      Win32::Pipe 0
+      Win32::Process 0
+  Win32-Pipe-0.025
+    pathname: J/JD/JDB/Win32-Pipe-0.025.tar.gz
+    provides:
+      Win32::Pipe 0.025
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.006
+  Win32-Process-0.16
+    pathname: J/JD/JDB/Win32-Process-0.16.tar.gz
+    provides:
+      Win32::Process 0.16
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.006
