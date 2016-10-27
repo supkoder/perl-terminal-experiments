@@ -35,7 +35,7 @@ sub standard_help {
 
 my $menu = Term::ANSIMenu->new(width  => 40,
                                help   => [['', \&standard_help],
-                                          ['hint 1', \&help_item],
+                                          ['hint test', \&help_item],
                                           ['hint 2', \&standard_help],
                                           ['hint 3', undef]
                                          ],
