@@ -1,5 +1,26 @@
 # carton snapshot format: version 1.0
 DISTRIBUTIONS
+  Term-ANSIMenu-0.02
+    pathname: J/JA/JADEV/Term-ANSIMenu-0.02.tar.gz
+    provides:
+      Term::ANSIMenu 0.02
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      Term::ReadKey 0
+  Term-ANSIScreen-1.50
+    pathname: A/AU/AUDREYT/Term-ANSIScreen-1.50.tar.gz
+    provides:
+      Term::ANSIScreen 1.50
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      perl 5.005
+  TermReadKey-2.37
+    pathname: J/JS/JSTOWE/TermReadKey-2.37.tar.gz
+    provides:
+      Term::ReadKey 2.37
+    requirements:
+      ExtUtils::MakeMaker 6.58
   Win32-Console-ANSI-1.10
     pathname: J/JL/JLMOREL/Win32-Console-ANSI-1.10.tar.gz
     provides:
