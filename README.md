@@ -1,3 +1,3 @@
-perl-terminal-experiments
+# perl-terminal-experiments
 
-lorem ipsum
+Experimenting with Perl terminal modules on Windows.
